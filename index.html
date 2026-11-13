@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EVENTRA | Your Event, One Destination</title>
+
+  <style>
+    :root {
+      --army: #132A13;
+      --cream: #FAF4D3;
+      --sage: #7A8B68;
+      --gold: #C5A45D;
+      --white: #FFFDF5;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: var(--cream);
+      color: var(--army);
+      font-family: Arial, sans-serif;
+      min-height: 100vh;
+    }
+
+    header {
+      text-align: center;
+      padding: 55px 20px 30px;
+    }
+
+    .logo {
+      width: 75px;
+      height: 75px;
+      border: 2px solid var(--gold);
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      margin: 0 auto 18px;
+      font-size: 27px;
+      font-weight: bold;
+      background: var(--army);
+      color: var(--cream);
+    }
+
+    h1 {
+      font-size: 38px;
+      letter-spacing: 5px;
+      margin-bottom: 10px;
+    }
+
+    .tagline {
+      color: var(--sage);
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+
+    main {
+      width: min(90%, 520px);
+      margin: 15px auto 60px;
+    }
+
+    .intro {
+      text-align: center;
+      line-height: 1.7;
+      margin-bottom: 28px;
+      font-size: 14px;
+    }
+
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .menu a {
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      padding: 19px;
+      border: 1px solid var(--army);
+      border-radius: 12px;
+      background: var(--white);
+      color: var(--army);
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      transition: 0.2s;
+    }
+
+    .menu a:hover {
+      background: var(--army);
+      color: var(--cream);
+      transform: translateY(-2px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 15px;
+      color: var(--sage);
+      font-size: 12px;
+    }
+
+    @media (max-width: 480px) {
+      h1 { font-size: 31px; }
+      header { padding-top: 40px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">E</div>
+    <h1>EVENTRA</h1>
+    <p class="tagline">Your Event, One Destination.</p>
+  </header>
+
+  <main>
+    <p class="intro">
+      Selamat datang di EVENTRA!<br>
+      Temukan informasi, jadwal, dan pendaftaran
+      berbagai kegiatan dalam satu tempat.
+    </p>
+
+    <nav class="menu">
+      <a href="#" id="registration">PENDAFTARAN EVENT</a>
+      <a href="#" id="information">INFORMASI & PANDUAN</a>
+      <a href="#" id="schedule">JADWAL KEGIATAN</a>
+      <a href="#" id="status">CEK STATUS PENDAFTARAN</a>
+      <a href="#" id="admin">HUBUNGI ADMIN</a>
+    </nav>
+  </main>
+
+  <footer>
+    © 2026 EVENTRA. All Rights Reserved.
+  </footer>
+</body>
+</html>

@@ -3,17 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>EVENTRA | Your Event, One Destination</title>
 
   <style>
-.profile-image {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #FAF4D3;
-}
-    
     :root {
       --army: #132A13;
       --cream: #FAF4D3;
@@ -40,18 +33,16 @@
       padding: 55px 20px 30px;
     }
 
-    .logo {
-      width: 75px;
-      height: 75px;
-      border: 2px solid var(--gold);
+    .profile-image {
+      display: block;
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      object-position: center;
       border-radius: 50%;
-      display: grid;
-      place-items: center;
+      border: 3px solid var(--gold);
       margin: 0 auto 18px;
-      font-size: 27px;
-      font-weight: bold;
       background: var(--army);
-      color: var(--cream);
     }
 
     h1 {
@@ -113,15 +104,31 @@
     }
 
     @media (max-width: 480px) {
-      h1 { font-size: 31px; }
-      header { padding-top: 40px; }
+      h1 {
+        font-size: 31px;
+      }
+
+      header {
+        padding-top: 40px;
+      }
+
+      .profile-image {
+        width: 110px;
+        height: 110px;
+      }
     }
   </style>
 </head>
 
 <body>
+
   <header>
-  <img src="PKOSGRUP.jpeg" alt="Foto profil EVENTRA" class="profile-image">
+    <img
+      src="./PKOSGRUP.jpeg"
+      alt="Foto profil EVENTRA"
+      class="profile-image"
+    >
+
     <h1>EVENTRA</h1>
     <p class="tagline">Your Event, One Destination.</p>
   </header>
@@ -134,16 +141,36 @@
     </p>
 
     <nav class="menu">
-      <a href="https://forms.gle/FxoVVefK353dEowP8" target="_blank" rel="noopener noreferrer">PENDAFTARAN EVENT</a>
-     <a href="https://docs.google.com/document/d/1Eu2GdLwBY9P2_H8CueGlUuAwOq2q--Bv/edit?usp=drive_link&ouid=109684138356299825882&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">INFORMASI & PANDUAN</a>
-     <a href="https://docs.google.com/spreadsheets/d/1HOSFKKlkxEOTsSTQ0R_sjKx0RHUTnTPtN5s_W0LMvKM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">JADWAL KEGIATAN</a>
-   <a href="https://script.google.com/macros/s/AKfycbyqWWI_tdFL-OPl0vyj3lQY7QlT4Wq8M31wQSn-mS7hx9OPAdkTdT4Wsi9WMVT7El2lUg/exec" target="_blank" rel="noopener noreferrer">CEK STATUS PENDAFTARAN</a>
-<a href="https://wa.me/6282339743388?text=Halo%20Admin%20EVENTRA,%20saya%20ingin%20bertanya%20mengenai%20kegiatan." target="_blank" rel="noopener noreferrer">HUBUNGI ADMIN</a>
+      <a href="https://forms.gle/FxoVVefK353dEowP8"
+         target="_blank" rel="noopener noreferrer">
+        PENDAFTARAN EVENT
+      </a>
+
+      <a href="https://docs.google.com/document/d/1Eu2GdLwBY9P2_H8CueGlUuAwOq2q--Bv/edit?usp=drive_link&ouid=109684138356299825882&rtpof=true&sd=true"
+         target="_blank" rel="noopener noreferrer">
+        INFORMASI &amp; PANDUAN
+      </a>
+
+      <a href="https://docs.google.com/spreadsheets/d/1HOSFKKlkxEOTsSTQ0R_sjKx0RHUTnTPtN5s_W0LMvKM/edit?usp=sharing"
+         target="_blank" rel="noopener noreferrer">
+        JADWAL KEGIATAN
+      </a>
+
+      <a href="https://script.google.com/macros/s/AKfycbyqWWI_tdFL-OPl0vyj3lQY7QlT4Wq8M31wQSn-mS7hx9OPAdkTdT4Wsi9WMVT7El2lUg/exec"
+         target="_blank" rel="noopener noreferrer">
+        CEK STATUS PENDAFTARAN
+      </a>
+
+      <a href="https://wa.me/6282339743388?text=Halo%20Admin%20EVENTRA,%20saya%20ingin%20bertanya%20mengenai%20kegiatan."
+         target="_blank" rel="noopener noreferrer">
+        HUBUNGI ADMIN
+      </a>
     </nav>
   </main>
 
   <footer>
     © 2026 EVENTRA. All Rights Reserved.
   </footer>
+
 </body>
 </html>

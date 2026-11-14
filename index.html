@@ -120,6 +120,43 @@
         height: 110px;
       }
     }
+    .social-section {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.social-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+.socials a {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--army);
+  color: var(--cream);
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  transition: 0.2s;
+}
+
+.socials a:hover {
+  background: var(--sage);
+  transform: translateY(-4px);
+}
   </style>
 </head>
 
@@ -166,8 +203,27 @@
          target="_blank" rel="noopener noreferrer">
         HUBUNGI ADMIN
       </a>
-    </nav>
-  </main>
+   </nav>
+
+<div class="social-section">
+  <p class="social-title">Temukan Kami di Media Sosial</p>
+
+  <div class="socials">
+    <a href="https://www.instagram.com/pkosisman1c/"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="Instagram">IG</a>
+
+    <a href="https://www.tiktok.com/@pkosisman1c"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="TikTok">TT</a>
+
+    <a href="https://youtube.com/@pk-osissman1c"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="YouTube">YT</a>
+  </div>
+</div>
+
+</main>
 
   <footer>
     © 2026 EVENTRA. All Rights Reserved.
